@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="bookapp.myapplication.MyListings"
+    android:background="#55AA55">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#55AA55"
+        android:weightSum="1">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="301dp"
+            android:id="@+id/listView"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.82" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click on a row to delete its contents."
+            android:id="@+id/textView14"
+            android:layout_weight="0.15" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saveAndReturn"
+            android:id="@+id/saveButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.09"
+            android:textAllCaps="false"
+            android:textColor="#55AA55" />
+    </LinearLayout>
+</RelativeLayout>

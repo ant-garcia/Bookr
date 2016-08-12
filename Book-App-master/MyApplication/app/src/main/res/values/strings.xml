@@ -1,0 +1,94 @@
+<resources>
+
+<!-- Strings from Google code -->
+    <string name="circles_title">Visible circles:</string>
+    <string name="sign_out_button_name">Sign out</string>
+    <string name="revoke_access_button_name">Revoke</string>
+
+    <string name="status_sign_in_required">Sign-in required</string>
+    <string name="status_sign_in_error">Error signing in: %s</string>
+    <string name="status_loading">Loading…</string>
+    <string name="status_signing_in">Signing in with Google+…</string>
+    <string name="status_signed_out">Signed out</string>
+    <string name="status_revoke_access">Revoked access</string>
+    <string name="status_revoke_access_error">Error revoking access: %s</string>
+    <string name="signed_in_as">Signed in as %s</string>
+
+    <!-- Used if there was an error loading the signed in user's name. -->
+    <string name="unknown_person">Unknown</string>
+    <string name="play_services_error">Google Play services is not available.  This application will close.</string>
+    <string name="close">Close</string>
+    <string name="profile_picture">User\'s profile picture.</string>
+    <string name="mock_server_has_token">Mock server has refresh token?</string>
+    <string name="request_server_auth_code">Request server auth code?</string>
+    <string name="configuration_error">Error: the value of WEB_CLIENT_ID or SERVER_BASE_URL is not  set correctly. This will cause errors when requesting a server auth code.</string>
+<!-- End of Strings from Google code -->
+
+    <string name="app_name">Bookr</string>
+    <string name="page_title">Front Page</string>
+    <string name="action_settings">Settings</string>
+    <string name="phrase">For Lakers, By Lakers</string>
+
+    <string name ="email"> Send Seller an Email </string>
+
+<!-- Strings for activity_front_page -->
+    <string name="title_activity_sell_abook"> Sell A Book </string>
+    <string name="lookUpButton"> Look For Books </string>
+    <string name="sellButton"> Sell A Book </string>
+    <string name="listingButton"> My Listings </string>
+    <string name="infoButton"> My Personal Information </string>
+    <string name="exitButton"> Exit </string>
+    <string name="SUNY">For SUNY Oswego</string>
+
+
+<!-- Strings for activity_my_information -->
+    <string name="nameColon">Name: </string>
+    <string name="unimplementedEmail">(One day there will be an uneditable email address here)</string>
+    <string name="oswegoEmailColon">Oswego.edu Email: </string>
+    <string name="altEmailColon">Alternate Email: </string>
+    <string name="displayToBuyers">Display to Buyers</string>
+    <string name="phoneColon">Phone Number: </string>
+    <string name="save"> Save </string>
+    <string name="title_activity_my_information">My Information</string>
+
+<!-- Strings for activity_sell_a_book -->
+    <string-array name="conditions">
+        <item>Average</item>
+        <item>Good</item>
+        <item>Poor</item>
+    </string-array>
+    <string name="autoFillWarn">(Autofill lookup may take a few seconds.)</string>
+    <string name="requiredExplanation">(* = Required Field)</string>
+    <string name="listMyBook"> List My Book </string>
+    <string name="askingPriceColon">Asking Price: </string>
+    <string name="qualityColon">*Quality: </string>
+    <string name="authorColon">*Author: </string>
+    <string name="titleColon">*Title: </string>
+    <string name="autoFill"> Run ISBN Auto Fill </string>
+    <string name="ISBNColon">ISBN: </string>
+    <string name="dotdotdot"> ... </string>
+
+
+<!-- Strings for activity_book_search -->
+    <string-array name="searchTypes">
+        <item>Title</item>
+        <item>ISBN</item>
+        <item>Author</item>
+    </string-array>
+    <string name="title_activity_book_search">Book Search</string>
+    <string name="search"> Search </string>
+    <string name="searchBy">Search By: </string>
+    <string name="searchColon">Search: </string>
+
+<!-- Strings for my listings -->
+    <string name="title_activity_my_listings">My Listings</string>
+    <string name="temp">Users can choose to edit or remove their listed books, which will be shown above.</string>
+    <string name="saveAndReturn"> Save and Return </string>
+    <string name="title_activity_search_results">SearchResults</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_google_play_services">GooglePlayServicesActivity</string>
+    <string name="title_activity_login_page">LoginPage</string>
+    <string name="title_activity_book_information">BookInformation</string>
+
+
+</resources>
